@@ -19,3 +19,8 @@ header {
 .card h5, .card p{
     color: black;
 }
+
+
+@media (max-width: 576px) {
+    #hideonmobile{display: none;}
+  }
