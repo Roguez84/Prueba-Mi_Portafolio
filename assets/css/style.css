@@ -11,16 +11,36 @@ header {
     background-image:  url("../img/bg_hero.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
+    background-position: center;
     padding-top: 20rem;
 
 }
 
+h1,h2,h4,h5 {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+h3, p {
+    font-family: 'Open Sans', sans-serif;
+}
 .card h5, .card p{
     color: black;
 }
 
+.card h5 {
+    font-weight: bold;
+}
 
 @media (max-width: 576px) {
     #hideonmobile{display: none;}
+    
+
+  }
+
+  @media (min-width: 577px) {
+    #espacio-card{padding-bottom: 30px;}
+    
+    
+
   }
