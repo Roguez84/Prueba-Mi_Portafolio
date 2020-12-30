@@ -15,3 +15,7 @@ header {
     padding-top: 20rem;
 
 }
+
+.card h5, .card p{
+    color: black;
+}
